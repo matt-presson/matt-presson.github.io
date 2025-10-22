@@ -6,190 +6,41 @@
     "resume": "resume.pdf"
   },
   "home": {
-    "heroSentence": "a discerning creative\nand more discerning engineer",
+    "heroSentence": "design and engineering with fun at the helm",
     "projects": [
       {
-        "name": "Lorem Ipsum1",
+        "name": "Trainyard",
         "year": "2024",
-        "keywords": ["Unreal Engine", "Shader"],
-        "shortDesc": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "coverImage": "/projects/cleo/cover.jpg",
-        "roles": ["Sole Developer", "Co-designer"],
+        "keywords": ["Unity", "Education", "Puzzle Game"],
+        "shortDesc": "Trainyard is an educational puzzle game for elementary and middle school students in which players edit and connect coding blocks to program instructions for train movements. It was developed as a capstone project for NC State Computer Science in collaboration with Katabasis and my teammates Alex Sawdy, Jace Glover, Samantha Collins, and Jackson Westbrook.",
+        "coverImage": "/projects/trainyard/trainyard.jpg",
+        "roles": ["Level Design", "Level Implementation"],
         "highlights": [
-          "Innovated a ping-pong rendering system for seamless scene transitions.",
-          "Engineered a browser-based scene editor for real-time animation editing by animators.",
-          "Conceptualized and implemented interactive particle effects and sand transitions using shader.",
-          "Developed sophisticated lighting effects."
+          "Experience conducting playtests, unit tests, and acceptance tests",
+          "Scrum software engineering experience",
+          "Level design and implementation"
         ],
         "detail": [
           {
             "type": "paragraph",
-            "value": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+            "value": "This game was made for my senior design project with NC State Computer Science, and as such we treated it like a contract-based project. Each group had an industry sponsor to work for, and my group worked with Katabasis, a 501(c)(3) organization in the Triangle that creates educational computer science games. Following a Scrum methodology, my team and I conducted 2-3 week sprints to create a paper prototype, create a Unity protoype, build levels and UI, and finally expand and polish. I worked as our lead of level design and quality assurance, creating design templates, blueprints, and level builds towards the beginning, and conducting playtests and acceptance tests towards the end. My main takeaway from this project was a wholesale software engineering project experience, from identifying requirements and constraints to creating multi-level design graphics to writing unit tests, all within the context of game design and development. While I learned a lot about the Unity engine and game engineering practices, I learned more about how to formalize development, set goals, and communicate responsibilities with teammates."
           },
           {
-            "value": "/projects/cleo/1.jpg",
+            "value": "/projects/trainyard/level.png",
             "type": "image"
           },
           {
-            "value": "/projects/cleo/1.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cleo/2.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cleo/3.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cleo/4.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cleo/5.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cleo/6.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cleo/7.mp4",
-            "type": "video-muted"
-          }
-        ]
-      },
-      {
-        "name": "Lorem Ipsum2",
-        "year": "2024",
-        "keywords": ["Unreal Engine", "Shader"],
-        "shortDesc": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "coverImage": "/projects/bca/cover.jpg",
-        "roles": ["Sole Developer", "Co-designer"],
-        "highlights": [
-          "Innovated a ping-pong rendering system for seamless scene transitions.",
-          "Engineered a browser-based scene editor for real-time animation editing by animators.",
-          "Conceptualized and implemented interactive particle effects and sand transitions using shader.",
-          "Developed sophisticated lighting effects."
-        ],
-        "detail": [
-          {
-            "type": "paragraph",
-            "value": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-          },
-          {
-            "value": "/projects/bca/reel.mp4",
-            "type": "video"
-          },
-          {
-            "value": "/projects/bca/1.jpg",
+            "value": "/projects/trainyard/poster.png",
             "type": "image"
           },
           {
-            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "type": "paragraph"
-          },
-          {
-            "value": "/projects/bca/2.jpg",
-            "type": "image"
-          },
-          {
-            "value": "/projects/bca/3.jpg",
+            "value": "/projects/trainyard/design.png",
             "type": "image"
           }
-        ]
-      },
-      {
-        "name": "Lorem Ipsum3",
-        "year": "2024",
-        "keywords": ["Unreal Engine", "Shader"],
-        "shortDesc": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "coverImage": "/projects/cvd/cover.jpg",
-        "roles": ["Sole Developer", "Co-designer"],
-        "highlights": [
-          "Innovated a ping-pong rendering system for seamless scene transitions.",
-          "Engineered a browser-based scene editor for real-time animation editing by animators.",
-          "Conceptualized and implemented interactive particle effects and sand transitions using shader.",
-          "Developed sophisticated lighting effects."
-        ],
-        "detail": [
-          {
-            "type": "paragraph",
-            "value": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-          },
-          {
-            "value": "/projects/cvd/reel.mp4",
-            "type": "video"
-          },
-          {
-            "value": "/projects/cvd/1.jpg",
-            "type": "image"
-          },
-          {
-            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "type": "paragraph"
-          },
-          {
-            "value": "/projects/cvd/2.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cvd/3.jpg",
-            "type": "image"
-          },
-          {
-            "value": "/projects/cvd/3.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/cvd/4.mp4",
-            "type": "video-muted"
-          }
-        ]
-      },
-      {
-        "name": "Lorem Ipsum4",
-        "year": "2024",
-        "keywords": ["Unreal Engine", "Shader"],
-        "shortDesc": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "coverImage": "/projects/pbd/cover.jpg",
-        "roles": ["Sole Developer", "Co-designer"],
-        "highlights": [
-          "Innovated a ping-pong rendering system for seamless scene transitions.",
-          "Engineered a browser-based scene editor for real-time animation editing by animators.",
-          "Conceptualized and implemented interactive particle effects and sand transitions using shader.",
-          "Developed sophisticated lighting effects."
-        ],
-        "detail": [
-          {
-            "type": "paragraph",
-            "value": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
-          },
-          {
-            "value": "/projects/pbd/reel.mp4",
-            "type": "video"
-          },
-          {
-            "value": "/projects/pbd/1.jpg",
-            "type": "image"
-          },
-          {
-            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "type": "paragraph"
-          },
-          {
-            "value": "/projects/pbd/1.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/pbd/2.mp4",
-            "type": "video-muted"
-          },
-          {
-            "value": "/projects/pbd/3.jpg",
-            "type": "image"
-          }
+          // {
+          //   "value": "/projects/cleo/7.mp4",
+          //   "type": "video-muted"
+          // }
         ]
       }
     ],
