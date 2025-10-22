@@ -1,11 +1,11 @@
 {
   "effect": {
-    "clr0": "#000000",
-    "clr1": "#ffffff",
-    "clr2": "#ffffff",
-    "clr3": "#ffffff",
-    "clr4": "#ffffff",
-    "clr5": "#ffffff",
-    "clr6": "#ffffff"
+    "clr0": "#4169E1",
+    "clr1": "#ff0000",
+    "clr2": "#ff0000",
+    "clr3": "#00ff00",
+    "clr4": "#00ff00",
+    "clr5": "#0000ff",
+    "clr6": "#0000ff"
   }
 }
