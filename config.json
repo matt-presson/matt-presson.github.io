@@ -13,7 +13,7 @@
         "year": "2024",
         "keywords": ["Unity", "Education", "Puzzle Game"],
         "shortDesc": "Trainyard is an educational puzzle game for elementary and middle school students in which players edit and connect coding blocks to program instructions for train movements. It was developed as a capstone project for NC State Computer Science in collaboration with Katabasis and my teammates Alex Sawdy, Jace Glover, Samantha Collins, and Jackson Westbrook.",
-        "coverImage": "/projects/trainyard/trainyard.jpg",
+        "coverImage": "/projects/trainyard/trainyard.png",
         "roles": ["Level Design", "Level Implementation"],
         "highlights": [
           "Experience conducting playtests, unit tests, and acceptance tests",
