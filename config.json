@@ -9,10 +9,38 @@
     "heroSentence": "design and engineering with fun at the helm",
     "projects": [
       {
+        "name": "AI Hummingbird Game",
+        "year": "2025",
+        "keywords": ["Unity", "Education", "Reinforcement Learning"],
+        "shortDesc": "The AI Hummingbird Game was developed in collaboration with The Intellimedia Group out of NC State as an educational tool for teaching reinforcement learning concepts to middle school students. The player assumes the role of a reinforcement learning agent in training, trying new actions to determine patterns of behavior that yield rewards. Specifically, the player must discover that flowers offer nectar and improve their ability to collect nectar under a time constraint. Available online at https://go.ncsu.edu/hbird",
+        "coverImage": "/projects/hummingbird/hummingbird.png",
+        "roles": ["Undergraduate Research", "Computer Science Education", "Serious Game Design"],
+        "highlights": [
+          "Experience conducting playtests, unit tests, and acceptance tests",
+          "Experience training Unity ML-Agents",
+          "Serious game design experience",
+          "Gameplay programming"
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "I inherited this project from another undergraduate research assistant who had adapted a Unity tutorial for their ML-Agent package into an educational game. My primary contributions were redesigning the gameplay loop, implementing the level, training Unity ML-agents, and delivering the activity in classrooms. The game is part of a larger curriculum developed for The Intellimedia Group's AI Play project, which creates educational materials about AI for middle school students. The goal of the game is to use a creative gameplay experience to build kids' understanding of reinforcement learning techniques. In both summer camps and school visits, I delivered presentations about reinforcement learning concepts and terminology, then lead the students through the game activity. In the game, the player explores their environment and attempts to interact with objects until they receive rewards. Using these rewards as feedback, the player develops patterns of behavior to increase their yield, simulating the training process for reinforcement learning agents. The game also includes multiple reward systems to demonstrate how more sophisticated reward systems can make training more efficient. This project was published as a poster at the 2025 SIGCSE conference, as shown below and at https://sigcse2025.sigcse.org/details/sigcse-ts-2025-posters/72/Introducing-Reinforcement-Learning-Concepts-to-Middle-School-Students-with-Game-Based."
+          },
+          {
+            "value": "/projects/hummingbird/poster.jpg",
+            "type": "image"
+          },
+          {
+            "value": "/projects/hummingbird/all_rewards_30.mp4",
+            "type": "video-muted"
+          }
+        ]
+      },
+      {
         "name": "Trainyard",
         "year": "2024",
         "keywords": ["Unity", "Education", "Puzzle Game"],
-        "shortDesc": "Trainyard is an educational puzzle game for elementary and middle school students in which players edit and connect coding blocks to program instructions for train movements. It was developed as a capstone project for NC State Computer Science in collaboration with Katabasis and my teammates Alex Sawdy, Jace Glover, Samantha Collins, and Jackson Westbrook.",
+        "shortDesc": "Trainyard is an educational puzzle game for elementary and middle school students in which players edit and connect coding blocks to program instructions for train movements. It was developed as a capstone project for NC State Computer Science in collaboration with Katabasis and my teammates Alex Sawdy, Jace Glover, Samantha Collins, and Jackson Westbrook. Demo video available at https://www.youtube.com/watch?v=nW-wS4eNgf8",
         "coverImage": "/projects/trainyard/trainyard.png",
         "roles": ["Level Design", "Level Implementation"],
         "highlights": [
@@ -35,6 +63,87 @@
           },
           {
             "value": "/projects/trainyard/design.png",
+            "type": "image"
+          }
+        ]
+      },
+      {
+        "name": "Custom Game Engine",
+        "year": "2024",
+        "keywords": ["C++", "Event Handling", "Component-Based Architecture"],
+        "shortDesc": "This game engine project was developed for a Game Engine Foundations class in my senior year at NC State. While the games demonstrated are rudimentary, the underlying engine is entirely original C++ code using only SDL and ZMQ libraries for rendering and networking, respectively.",
+        "coverImage": "/projects/engine/engine.png",
+        "roles": ["Engine Development", "Multithreaded Networking"],
+        "highlights": [
+          "Custom physics, timelines, and game objects",
+          "Multithreaded client-server interactions",
+          "Custom game state recording system and event handling"
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "This game engine and the games played with it are my original work built from the ground up with minimal dependencies. It allows multiple clients to connect via a multithreaded server program. It also uses custom game objects with a component-based architecture and a custom event system to faciliate gameplay recordings. Physics and collisions are also custom-made, so the only project depencies are the ZMQ and SDL libraries. Three separate game projects were built on this engine to demonstrate its extendability: a Space Invaders game, a Brick Breaker game, and a platformer, shown below. My main takeaways from this project were fundamental algorithms and architectures for various crucial engine systems. Code available upon request."
+          },
+          {
+            "value": "/projects/engine/platformer.mp4",
+            "type": "video-muted"
+          },
+          {
+            "value": "/projects/engine/spaceinvaders.mp4",
+            "type": "video-muted"
+          },
+          {
+            "value": "/projects/engine/brickbreaker.mp4",
+            "type": "video-muted"
+          }
+        ]
+      },
+      {
+        "name": "Shader Frogger",
+        "year": "2023",
+        "keywords": ["Javascript", "Computer Graphics", "WebGL"],
+        "shortDesc": "This game was my final project in my Computer Graphics class at NC State. Over the course of the semester, we implemented all parts of the graphics pipeline using WebGL shaders and the glMatrix library. This game is a rudimentary clone of Frogger, but the underlying shader logic used to illuminate the scene demonstrates understanding of a complex graphics pipeline.",
+        "coverImage": "/projects/frogger/frogger.png",
+        "roles": ["Graphics Engineering", "Shader Programming"],
+        "highlights": [
+          "Experience with all levels of the graphics pipeline",
+          "Custom shader programming",
+          "Javascript and WebGL development"
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "This game was my final project in my Computer Graphics class at NC State. Over the course of the semester, we implemented all parts of the graphics pipeline using WebGL shaders and the glMatrix library. We also implemented various illumination algorithms and created scenes to demonstrate the technqiues. This assignment tasked students with creating a game to be illuminated. My game is a rudimentary clone of Frogger, made by adding a game loop and functions to define behavior for the objects in the scene. The game logic is messy, but the underlying shader logic used to illuminate the scene demonstrates understanding of a complex graphics pipeline. Code available upon request."
+          },
+          {
+            "value": "/projects/frogger/frogger.mp4",
+            "type": "video-muted"
+          }
+        ]
+      },
+      {
+        "name": "Heroes of the Labyrinth",
+        "year": "2023",
+        "keywords": ["Twine", "Puzzle Game"],
+        "shortDesc": "Heroes of the Labyrinth was my first game project at NC State, created for my Foundations of Interactive Game Design class. The game was developed using Twine, a software for creating browser-based branching path narrative games. The game makes creative use of Twine's capabilities for a more visually engaging player experience.",
+        "coverImage": "/projects/labyrinth/labyrinth.png",
+        "roles": ["Game Design", "Game Development"],
+        "highlights": [
+          "Creative software solutions",
+          "Puzzle design",
+          "Gameplay programming"
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "Using Twine's node graph scripting interface, I arranged the 'passages' of my 'narrative' into the shape of a maze, with each cell of the maze using mulitple passages to represent diffrent directions of entry, as shown below. By doing so, I could use static background images to accurately reflect a 3D POV from inside a maze. I also used separate 'passages' to represent all possible game states for a chess puzzle and tower of hanoi puzzle that the player must solve to escape the maze. My main takeaway from this project was how to create creative solutions to maximize limited resources. Build available upon request."
+          },
+          {
+            "value": "/projects/labyrinth/twine.png",
+            "type": "image"
+          },
+          {
+            "value": "/projects/labyrinth/chess.png",
             "type": "image"
           }
         ]
@@ -66,7 +175,7 @@
         ]
       }
     ],
-    "bio": "Dedicated and passionate senior pursuing a Master’s degree in Game Development. Seeking an internship or entry-level position that offers the opportunity to apply strong programming, problem-solving, and creative design skills in a professional environment. Eager to contribute to innovative projects while continuing to learn and grow in areas such as shader programming, enemy behavior trees, and UX/UI scripting.",
+    "bio": "Dedicated and passionate student pursuing a Master’s degree in Game Development from Duke University. Seeking an internship or entry-level position that offers the opportunity to apply strong programming, problem-solving, and creative design skills in a professional environment. Eager to contribute to innovative projects while continuing to learn and grow in areas such as shader programming, enemy behavior trees, and UX/UI scripting.",
     "bioPic": "profile_pic.jpg"
   }
 }
