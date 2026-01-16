@@ -9,6 +9,29 @@
     "heroSentence": "design and engineering with fun at the helm",
     "projects": [
       {
+        "name": "School Escape",
+        "year": "2025",
+        "keywords": ["Unreal", "Level Design", "Collaborative"],
+        "shortDesc": "School Escape is an 'escape the facility' type game in which players must survey their environment for clues to decipher codes and unlock doors to escape a haunted school building. It was developed as a final project for a Duke GDDI class in collaboration with a team of programmers, artists, and designers.",
+        "coverImage": "/projects/school_escape/cover.png",
+        "roles": ["Level Design", "Level Implementation"],
+        "highlights": [
+          "Unreal Engine blueprint",
+          "Unreal Engine revision control (P4V)",
+          "AI navigation"
+        ],
+        "detail": [
+          {
+            "type": "paragraph",
+            "value": "For this project, each member of the team was responsible for implementing one of our six level ideas. Each level was themed around a different common school setting (e.g. gym, classroom, library) and each puzzle was thematically fit with its room. I designed the puzzles for each level and implemented the hallway level, which required the player to crack a code while an invisible force follows them. The invisible force turned lights out within its radius, recreating the common cinematic trope of cascading light fixtures and making it difficult for the player to navigate the maze-like hallways. From this project, I gained valuable experience working with Unreal blueprints to define puzzle logic, decorate levels, and implement UI features like minimaps and interaction prompts."
+          },
+          {
+            "type": "image",
+            "value": "/projects/school_escape/hallway.png"
+          }
+        ]
+      },
+      {
         "name": "AI Hummingbird Game",
         "year": "2025",
         "keywords": ["Unity", "Education", "Reinforcement Learning"],
