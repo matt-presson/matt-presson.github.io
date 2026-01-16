@@ -9,30 +9,6 @@
     "heroSentence": "design and engineering with fun at the helm",
     "projects": [
       {
-        "name": "Playtime",
-        "year": "2025",
-        "keywords": ["Unreal Engine", "FPS", "PvE"],
-        "shortDesc": "This project is a PvE horde-defense game that combines active combat with building and upgrading autonomous defenses. Its systems are designed to be modular and extendable, allowing for new content, mechanics, or themes to be added without reworking the core gameplay. For me as a novice game developer, it has been a strong learning platform for Unreal Engine fundamentals, AI systems, and scalable game design.",
-        "coverImage": "/projects/playtime/playtime.jpg",
-        "roles": ["Solo Project", "Unreal Engine Development", "Marketable Demo"],
-        "highlights": [
-          "Ongoing personal project to build Unreal Engine skills",
-          "Complex AI enemy behavior trees",
-          "Various gameplay mechanics and autonomous systems",
-          "Level design and implementation"
-        ],
-        "detail": [
-          {
-            "type": "paragraph",
-            "value": "This project takes inspiration from Call of Duty: Black Ops Zombies and Bloons Tower Defense to create a strategic PvE horde-defense experience with light roguelike elements. Players defend key objectives against escalating waves of enemies by balancing active combat with the construction, upgrading, and maintenance of autonomous defenses, blending shooter mechanics with tower defense–style planning. The game emphasizes systems-driven design, including scalable AI behavior, modular upgrades, and a clear run-based progression loop that supports replayability and difficulty scaling. As an ongoing project, it is intentionally structured to be highly extendable, allowing for additional maps, enemy variants, progression systems, or complete thematic reskins without reworking core mechanics. From a development perspective, the project has been especially valuable as a novice game developer, providing hands-on experience with Unreal Engine fundamentals such as AI logic, gameplay systems, and iterative design, while leaving ample room for future growth and refinement."
-          },
-          {
-            "value": "/projects/playtime/playtime.mp4",
-            "type": "video"
-          }
-        ]
-      },
-      {
         "name": "AI Hummingbird Game",
         "year": "2025",
         "keywords": ["Unity", "Education", "Reinforcement Learning"],
