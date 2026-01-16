@@ -13,7 +13,7 @@
         "year": "2025",
         "keywords": ["Unreal", "Level Design", "Collaborative"],
         "shortDesc": "School Escape is an 'escape the facility' type game in which players must survey their environment for clues to decipher codes and unlock doors to escape a haunted school building. It was developed as a final project for a Duke GDDI class in collaboration with a team of programmers, artists, and designers.",
-        "coverImage": "/projects/school_escape/cover.png",
+        "coverImage": "/projects/school_escape/cover.jpg",
         "roles": ["Level Design", "Level Implementation"],
         "highlights": [
           "Unreal Engine blueprint",
